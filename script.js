@@ -22,20 +22,4 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    // Application form
-    const form = document.querySelector(".application-form");
-
-    if (form) {
-        form.addEventListener("submit", function (event) {
-            event.preventDefault();
-
-            alert(
-                "Thank you for applying to Remote Rise! " +
-                "Your application has been received."
-            );
-
-            form.reset();
-        });
-    }
-
 });
